@@ -2,7 +2,7 @@
 import {
     useState, cloneElement, ReactElement, useEffect,
 } from 'react';
-import useIntersect from 'hooks/intersect';
+import useIntersect from './intersect';
 import styles from './index.module.scss';
 
 const IntersectionPlaceholder = ({
